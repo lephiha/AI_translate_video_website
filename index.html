@@ -7,6 +7,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- ===== Google Analytics (GA4) ===== -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0GLGGPDKF9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0GLGGPDKF9');
+</script>
+<!-- ===== /Google Analytics ===== -->
+
 <style>
   :root{
     --pink-50:#FFF6FA;
@@ -375,7 +386,12 @@
     <h1>Lồng tiếng video<br><span class="accent">tự động, đúng giọng Việt</span></h1>
     <p class="hero-sub">Tải video từ YouTube, TikTok, Douyin → tự động nhận diện giọng nói, dịch sang tiếng Việt, lồng tiếng và đăng lại. Không cần dựng tay, không cần biên tập viên.</p>
     <div class="hero-actions">
-      <a href="https://drive.google.com/uc?export=download&id=1kk1ajjuB04E7O-ox0AMpM3AiA557uf6b" class="btn-primary">Tải bản cài đặt (.exe) ↓</a>
+      <a href="https://drive.google.com/uc?export=download&id=1Zp4nOupvQBTjiXavTx0S_ukBMYBBSroU"
+         class="btn-primary"
+         target="_blank"
+         onclick="gtag('event','download_click',{'event_category':'download','event_label':'hero_exe_button','transport_type':'beacon'});">
+         Tải bản cài đặt (.exe) ↓
+      </a>
       <button class="btn-secondary" onclick="showComingSoon()" type="button">Dùng bản Web</button>
       <a href="#pipeline" class="btn-secondary">Xem cách hoạt động</a>
     </div>
@@ -483,7 +499,12 @@
     <span class="section-tag" style="color:var(--pink-300)">Bắt đầu ngay</span>
     <h2>Tải Auto Translate Video</h2>
     <p>Bản cài đặt cho Windows 10/11. Lần chạy đầu app sẽ tự tải các model cần thiết, không cần cài thêm gì khác.</p>
-    <a href="https://drive.google.com/file/d/1kk1ajjuB04E7O-ox0AMpM3AiA557uf6b/view?usp=sharing" class="btn-primary">Tải xuống từ Google Drive ↓</a>
+    <a href="https://drive.google.com/file/d/1Zp4nOupvQBTjiXavTx0S_ukBMYBBSroU/view?usp=sharing"
+       class="btn-primary"
+       target="_blank"
+       onclick="gtag('event','download_click',{'event_category':'download','event_label':'bottom_drive_button','transport_type':'beacon'});">
+       Tải xuống từ Google Drive ↓
+    </a>
     <div class="req">windows 10/11 · ~bản cài đặt nhẹ, model tải lần đầu · cần khoảng 2GB trống</div>
   </div>
 </section>
