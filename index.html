@@ -142,6 +142,13 @@
     background:var(--pink-600); color:var(--white);
     padding:2px 7px; border-radius:999px; margin-left:2px;
   }
+
+  .badge-envi{
+    font-family:var(--mono); font-size:10px; letter-spacing:.04em;
+    background:var(--ink); color:var(--white);
+    padding:2px 7px; border-radius:999px; margin-left:2px;
+  }
+
   .hero-meta{
     margin-top:14px; font-size:13px; color:var(--ink-soft); font-family:var(--mono);
   }
@@ -419,6 +426,12 @@
          onclick="gtag('event','download_click',{'event_category':'download','event_label':'hero_official_button','transport_type':'beacon'});">
          Tải bản Chính thức (.exe) ↓ <span class="badge-official">OFFICIAL</span>
       </a>
+      <a href="https://drive.google.com/uc?export=download&id=13OsOuVOQSgJ0LFrteewpO8vq-6-QvrL9"
+         class="btn-secondary"
+         target="_blank"
+         onclick="gtag('event','download_click',{'event_category':'download','event_label':'hero_envi_button','transport_type':'beacon'});">
+         Tải bản Anh-Việt (.exe) ↓ <span class="badge-envi">EN→VI</span>
+      </a>
       <!-- <a href="https://drive.google.com/file/d/1AW4KPiI38KKoUnNBtget-lNirlO4fOYG/view?usp=sharing"
          class="btn-secondary"
          target="_blank"
@@ -538,6 +551,12 @@
          target="_blank"
          onclick="gtag('event','download_click',{'event_category':'download','event_label':'bottom_official_button','transport_type':'beacon'});">
          Tải bản 1.0.3 ↓
+      </a>
+      <a href="https://drive.google.com/uc?export=download&id=13OsOuVOQSgJ0LFrteewpO8vq-6-QvrL9"
+         class="btn-official-alt"
+         target="_blank"
+         onclick="gtag('event','download_click',{'event_category':'download','event_label':'bottom_envi_button','transport_type':'beacon'});">
+         Tải bản Anh-Việt ↓ <span class="badge-envi">EN→VI</span>
       </a>
       <!-- <a href="https://drive.google.com/file/d/1YBNx2t1l6gazGUqfUGx5PpW1CBGVWxkp/view?usp=sharing"
          class="btn-official-alt"
